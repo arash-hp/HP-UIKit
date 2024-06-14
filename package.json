@@ -1,0 +1,26 @@
+{
+  "name": "HP-UIKit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.es.js",
+  "module": "dist/index.es.js",
+  "declaration": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/arash-hp/HP-UIKit.git"
+  },
+  "scripts": {
+    "start": "rollup -c rollup.config.js -w",
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "arash-hp",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.18.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "tslib": "^2.6.3"
+  }
+}
